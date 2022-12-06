@@ -1,0 +1,103 @@
+main{
+    margin-top: 100px;
+    background: white;
+    height: 800px;
+}
+
+/* 카테고리 관련  */
+
+#toptext p{
+    display: inline-block;
+    margin:20px  0 60px 20px ;
+    width: 400px;
+    cursor: pointer;
+}
+
+
+#toptext p:nth-child(1){
+    margin-left: 20px;
+}
+
+#toptext p:nth-child(2){
+    text-align: right;
+}
+
+/* 왼쪽 사진 관련 */
+
+#image{
+    margin: 0 20px;
+    /* clear: both; */
+}
+
+#big{
+    background-size: cover;
+    width: 400px;
+}
+
+#mini{
+    margin-top: 10px;
+    width: 40px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+#mini:nth-child(1){
+    border: 1px solid gray;
+    margin-left: 10px;
+}
+
+
+
+
+/* 오른쪽 정보관련 */
+
+.box{
+    float: left;
+    width: 400px;
+}
+
+#box1{
+    margin-bottom: 30px;
+}
+
+#code{
+    font-size: 11px;
+}
+
+#money{
+    font-family:'맑은고딕체';
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+/* 수량 */
+input{
+    width: 50px;
+    height: 20px;
+    margin: 10px 0 10px 0px;
+    padding: 10px;
+}
+
+/* 카트 추가 */
+button{
+    width:400px;
+    height: 40px;
+    background: rgb(0, 33, 0);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background: white;
+    color: black;
+    border: solid 1px black;
+}
+
+#box2 p img{
+    margin: 20px 10px 0 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

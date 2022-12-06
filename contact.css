@@ -1,0 +1,60 @@
+main{
+    width: inherit;
+    height: 500px;
+    /* position: absolute; */
+    margin-top:100px;
+    background: white;
+
+}
+
+h2{
+    font-size: 30px;
+}
+
+section{
+    float: left;
+    width: 400px;
+    padding: 20px 10px 0 40px;
+}
+
+/* 양식 */
+#inform{
+    width: 400px;
+    margin: 150px 10px 0px 10px;
+    float: left;
+}
+
+
+input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin: 10px -10px 0 0;
+    border: 1px solid black;
+    background: rgb(0, 33, 0);
+    color: white;
+    float: right;
+}
+
+button:hover{
+    background: white;
+    color: black;
+}
+
+#text1{
+    height:100px;
+}
+
+textarea{
+    resize: none;
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+}

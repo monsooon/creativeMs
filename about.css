@@ -1,0 +1,52 @@
+main{
+    width: inherit;
+    height: 1100px;
+    background: white;
+    /* position: absolute; */
+    margin-top:100px;
+}
+
+/* first div에 관한 내용 */
+
+#first{
+    margin: 0 20px;
+    padding: 20px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+section{
+    width: 390px;
+    float: left;
+    margin-right: 20px;
+    text-align:justify ;
+}
+
+img{
+    float: left;
+    width: 400px;
+    margin: 23px 10px 20px 0;
+    background-size: cover;
+}
+
+
+/* second div에 관한 내용 */
+
+#second{
+    margin: 0 20px;
+    padding: 20px;
+    clear: both;
+}
+
+.box{
+    width:390px;
+    float: left;
+    margin: 0 20px 30px 0;
+    text-align: justify;
+}
+
+h3{
+    font-family:'맑은고딕체'
+}

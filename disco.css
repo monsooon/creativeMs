@@ -1,0 +1,41 @@
+main{
+    margin-top: 100px;
+    background: white;
+    height: 750px;
+}
+
+#first, #second{
+   padding: 20px;
+}
+
+h2{
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: '맑은고딕체';
+    color: rgb(20, 26, 3);
+}
+
+.box img{
+    width: 205px;
+    height: 205px;
+    background-size: cover;
+    align-content: center;
+    cursor: pointer;
+}
+
+.box{
+    float: left;
+    margin: 5px;
+    color: black;
+}
+
+.box:hover{
+    color: blue;
+}
+
+
+#clear{
+    clear: both;
+}
+
